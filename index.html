@@ -244,7 +244,7 @@
             <h2>PORTAFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="../CV/img/35e3240b-83ea-4bce-8b06-076fc81ab639_bike-with-yellow-wall-min.jpg" alt="">
+                    <img src="img/Captura de pantalla 2023-03-27 191232.png" alt="">
                     <div class="overlay">
                         <h3>Pagina web para cafam</h3>
                         <p>html y css</p>
@@ -296,15 +296,24 @@
          <div class="fila">
             <!--Formulario-->
             <div class="col">
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Numero Telefonico">
-                <input type="text" placeholder="Correo electronico">
-                <input type="text" placeholder="Tema">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button>
+                <form action="https://formsubmit.co/88b91bf8891c9be31307ce57ef8fa819" method="POST">
+                    <input type="text" name="name" placeholder="Nombre">
+                    <input type="text" name="numero" placeholder="Numero Telefonico">
+                    <input type="text" name="correo"placeholder="Correo electronico">
+                    <input type="text" name="tema" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                   
+                    <input type="hidden" name="_next" value="http://localhost:8080/#contacto">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button>
+                    
                     Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane fa-beat-fade"></i>
                     <span class="overlay"></span>
-                </button>
+                    </button>
+
+                   
+                </form>
+                
 
             </div>
             <!--mapa-->
