@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV Sebastian Diaz</title>
+</head>
+<body>
+    <!--Menu-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sebastian</a>
+            </div>
+           <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portafolio"onclick="seleccionar()">PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+           </nav>
+           <div class="nav-responsive" onclick="mostrar0cultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+           </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">    
+                <img src="img/FOTO.jpeg" alt="">
+            </div>
+            <h1>Sebastian Diaz</h1>
+            <h2>
+                Ingeniero de software - Especializado en backend
+            </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/DcSebas15/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/sebastian-diaz-camargo-90b666228/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/+573195731759?text=Hola%20quiero%20contactarte" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:sebas13_diaz@hotmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+            </div>      
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sebastian Diaz</span> y mi obsetivo es formar parte de un equipo altamente 
+                calificado con compromiso de realizar aportes para la organización y continuar 
+                con mi desarrollo personal y profesional.</p>
+        
+        <div class="fila">
+            <!--datos personales-->
+            <div class="col">
+                <h3>Datos personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        10/07/1995
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        3195731759
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        Sebas13_Diaz@hotmail.com
+                    </li>
+                    <li>
+                        <strong>Website</strong>
+                        www.ejemplo.com
+                    </li>
+                    <li>
+                        <strong>Direcion</strong>
+                        Calle 127c #88b-34 Bogotá Colombia
+                    </li>
+                </ul>                   
+            </div>     
+        </div>
+        <button onclick="window.open('https://1drv.ms/b/s!ApAcOK-IufJrpiFVAOQ59TIF2YHp?e=Fiu44S','_blank');">
+            Descarga CV
+            <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        </div>
+         
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skill-->
+                <div class="col">
+                    <div class="skill">
+                        <span>javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo colaborativo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Profesional Skills-->
+                <div class="col">
+                    
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso sql">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Django</span>
+                        <div class="barra-skill">
+                            <div class="progreso django">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso git">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pasión</span>
+                        <div class="barra-skill">
+                            <div class="progreso pasion">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato</h4>
+                        <span class="sitio">Colegio Virginia Gutierrez de píneda</span>
+                        <span class="fecha">2012 - 2013</span>
+                        <p>Realice una especializacion en filosofia y español durante el ultimo año de
+                            bachillerato con duracion de 300 horas EME (educación media especializada),
+                            adicional a esto una mencion de honor por tener una de las prubeas mas altas
+                            en las pruebas saber 11°</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnologo</h4>
+                        <span class="sitio">Politecnico Internacional</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>Recien gradudado en desarrollo de software y aplicaciones movilés becado
+                            becado en varias ocaciones por uno de los mejores promedios en toda la facultad
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Organizador de eventos</h4>
+                        <span class="sitio">Caja de compensacion familiar CAFAM</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Inice como auxiliar centro recreativo en en centro de convenciones durante
+                            un año despues fui ascendido como organizador de eventos donde inicie con la programacion
+                             ya que ayude a realizar la pagina web de evento cafam en el lenguaje de html y css </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Productor de eventos</h4>
+                        <span class="sitio">Moya producciones</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Llevo 7 meses como productor de eventos y tambien realizando una aplicacion de
+                            escritorio en el lenguaje de python con la libreria de sqlite de registro en los eventos 
+                            doonde se lleva el control de los asistentes.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="../CV/img/35e3240b-83ea-4bce-8b06-076fc81ab639_bike-with-yellow-wall-min.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pagina web para cafam</h3>
+                        <p>html y css</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../CV/img/Captura de pantalla 2023-03-27 191232.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicacion de escritorio</h3>
+                        <p>python y sql</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../CV/img/MVC.png" alt="">
+                    <div class="overlay">
+                        <h3>Por definir</h3>
+                        <p>en progreso</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../CV/img/en-construccion.png.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Por definir</h3>
+                        <p>en progreso</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../CV/img/en-construccion.png.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Por definir</h3>
+                        <p>en progreso</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../CV/img/en-construccion.png.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Por definir</h3>
+                        <p>en progreso</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-section">
+         <h2>CONTACTO</h2>
+         <div class="fila">
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Numero Telefonico">
+                <input type="text" placeholder="Correo electronico">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane fa-beat-fade"></i>
+                    <span class="overlay"></span>
+                </button>
+
+            </div>
+            <!--mapa-->
+            <div class="col">
+                <img src="img/Captura de pantalla 2023-05-06 224842.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Suba Calle 127c#88b34
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile fa-shake"></i>
+                             Llamame al 3195731759
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                              Email: Sebas13_Diaz@hotmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>  
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/DcSebas15/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/sebastian-diaz-camargo-90b666228/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/+573195731759?text=Hola%20quiero%20contactarte" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:sebas13_diaz@hotmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+    
+</html>
