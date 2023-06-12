@@ -184,6 +184,7 @@ html{
 }
 .sobremi button:hover .overlay{
     width: 100%;
+    box-shadow: 0 0 10px #1cb698,0 0 40px #1cb698, 0 0 80px #1cb698;
 }
 /*SECCION Skills*/
 
@@ -523,7 +524,7 @@ html{
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 30%;
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -533,6 +534,7 @@ html{
     position: relative;
     z-index: 10;
 }
+
 .contacto button .overlay{
     position: absolute;
     top: 0;
@@ -545,7 +547,9 @@ html{
 }
 .contacto button:hover .overlay{
     width: 100%;
+    box-shadow: 0 0 10px #1cb698,0 0 40px #1cb698, 0 0 80px #1cb698;
 }
+
 .contacto .col img{
     width: 100%;
 }
