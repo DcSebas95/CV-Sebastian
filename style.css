@@ -488,8 +488,7 @@ html{
 }
 /*SECCION CONTACTO*/
 .contacto{
-    background-image:url(img/backgr.jpg);
-    background-color: #1e2326;
+    background-color: black;
     color: #fff;
     padding: 50px 0;
 }
